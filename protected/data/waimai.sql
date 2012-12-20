@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2012 年 12 月 18 日 16:12
+-- 生成日期: 2012 年 12 月 20 日 14:39
 -- 服务器版本: 5.5.24-log
 -- PHP 版本: 5.4.3
 
@@ -38,14 +38,27 @@ CREATE TABLE IF NOT EXISTS `wm_cuisine_menu` (
 -- --------------------------------------------------------
 
 --
--- 表的结构 `wm_cuisine_status`
+-- 表的结构 `wm_cuisine_type`
 --
 
-CREATE TABLE IF NOT EXISTS `wm_cuisine_status` (
-  `status_id` int(11) NOT NULL AUTO_INCREMENT,
-  `status_name` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`status_id`)
+CREATE TABLE IF NOT EXISTS `wm_cuisine_type` (
+  `type_id` int(11) NOT NULL AUTO_INCREMENT,
+  `type_name` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`type_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `wm_shops_cuisinetype`
+--
+
+CREATE TABLE IF NOT EXISTS `wm_shops_cuisinetype` (
+  `shop_id` int(11) NOT NULL,
+  `type_id` int(11) NOT NULL,
+  `type_order` int(11) DEFAULT NULL,
+  PRIMARY KEY (`shop_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
