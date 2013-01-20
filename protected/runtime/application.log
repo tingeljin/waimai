@@ -1,0 +1,206 @@
+2013/01/19 06:35:10 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(782): CController->renderPartial('/waimai/themes/...', NULL, true)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(8): CController->render('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:36:06 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(782): CController->renderPartial('/waimai/themes/...', NULL, true)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(8): CController->render('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:36:07 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(782): CController->renderPartial('/waimai/themes/...', NULL, true)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(8): CController->render('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:36:23 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(782): CController->renderPartial('/waimai/themes/...', NULL, true)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(6): CController->render('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:36:24 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(782): CController->renderPartial('/waimai/themes/...', NULL, true)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(6): CController->render('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:37:01 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(782): CController->renderPartial('/waimai/themes/...', NULL, true)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(5): CController->render('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:37:48 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012/views/wm/test.php".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(782): CController->renderPartial('/waimai/themes/...', NULL, true)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(5): CController->render('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:41:46 [error] [exception.CException] exception 'CException' with message 'WmController and its behaviors do not have a method or closure named "renderPrtial".' in D:\wamp\www\waimai\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(5): CComponent->__call('renderPrtial', Array)
+#1 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(5): WmController->renderPrtial('/waimai/themes/...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#3 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#5 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#6 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#7 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 06:42:14 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "/waimai/themes/shpd2012/views/wm/test.php".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(5): CController->renderPartial('/waimai/themes/...')
+#1 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#3 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#5 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#6 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/19 07:05:27 [error] [exception.CException] exception 'CException' with message 'WmController cannot find the requested view "test.php".' in D:\wamp\www\waimai\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\waimai\themes\shpd2012\views\layouts\wmcolumn.php(5): CController->renderPartial('test.php')
+#1 D:\wamp\www\waimai\framework\web\CBaseController.php(126): require('D:\wamp\www\wai...')
+#2 D:\wamp\www\waimai\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\wamp\www\wai...', Array, true)
+#3 D:\wamp\www\waimai\framework\web\CController.php(784): CBaseController->renderFile('D:\wamp\www\wai...', Array, true)
+#4 D:\wamp\www\waimai\protected\controllers\WmController.php(10): CController->render('index')
+#5 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionIndex()
+#6 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\wamp\www\waimai\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\wamp\www\waimai\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/waimai/
+HTTP_REFERER=http://localhost/
+---
+2013/01/20 11:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop".' in D:\wamp\www\waimai\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController('shop')
+#1 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wamp\www\waimai\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waimai/index.php?r=shop
+---
