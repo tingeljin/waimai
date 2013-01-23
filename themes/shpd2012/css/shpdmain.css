@@ -1,20 +1,28 @@
 @charset "utf-8";
+.hearder_css{
+	background-color: #b20000;
+}
+
 .header_toper{/*页头，网页最顶的横幅*/
 	height: 30px;
-	background-color: #744953;/*调试用颜色*/
+	background-color: #8e0000;/*调试用颜色*/
 	}
 .header_logor{/*页头，网页Logo行*/
 	max-height:90px;
 	/*background-color: #a02;调试用颜色*/
 }
 .header_logor [class*="span"]{/*页头，继承于Logo行*/
-	height:70px;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	text-align: center;
-	background-color: #744953;/*调试用颜色*/
+	/*background-color: #744953;调试用颜色*/
 }
-.yjyy{
+.span2_5 {
+  width: 170px;
+}
+.span9_5 {
+  width: 750px;
+}
+
+.yj{
 	border: 1px solid #DDD;
 	-moz-box-shadow:0px 2px 5px #333333; 
 	-webkit-box-shadow:0px 2px 5px #333333; 
@@ -23,65 +31,31 @@
 	-webkit-border-radius:5px; 
 	border-radius:5px;
 }
-.thumbnails [class*="span"] {
-margin-left: 0px;
-margin-right: 11px;
-
+.ybxj{
+	-webkit-border-top-left-radius:15px;
+	-webkit-border-top-right-radius:10em;
+	-webkit-border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-topright:10em;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-top-left-radius:15px;
+	border-top-right-radius:10em;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+.dise{/*底色*/
+	background-color: #CDFFFF;/*调试用颜色*/
+}
+.shangxiabianjie{/*上下边界*/
+	margin:10px 0;
+}
+.search_css{/*搜查的位置和边框高度*/
+	margin:10px 0;
+	height:50px
+}
+.marginleft10 {
+  margin-left: 5px;
 }
 
-
-.container,
-.navbar-static-top .container,
-.navbar-fixed-top .container,
-.navbar-fixed-bottom .container {
-  width: 980px;
-}
-
-.span12 {
-  width: 980px;
-}
-
-.span11 {
-  width: 900px;
-}
-
-.span10 {
-  width: 820px;
-}
-
-.span9 {
-  width: 740px;
-}
-
-.span8 {
-  width: 660px;
-}
-
-.span7 {
-  width: 580px;
-}
-
-.span6 {
-  width: 500px;
-}
-
-.span5 {
-  width: 420px;
-}
-
-.span4 {
-  width: 340px;
-}
-
-.span3 {
-  width: 260px;
-}
-
-.span2 {
-  width: 180px;
-}
-
-.span1 {
-  width: 100px;
-}
-.thumbnails=.items
