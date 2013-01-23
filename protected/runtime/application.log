@@ -204,3 +204,20 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/waimai/index.php?r=shop
 ---
+2013/01/22 12:51:10 [error] [php] Undefined variable: dataProvider (D:\wamp\www\waimai\themes\shpd2012\views\wm\shoplist.php:7)
+Stack trace:
+#0 D:\wamp\www\waimai\framework\web\CController.php(869): WmController->renderFile()
+#1 D:\wamp\www\waimai\framework\web\CController.php(782): WmController->renderPartial()
+#2 D:\wamp\www\waimai\protected\controllers\WmController.php(13): WmController->render()
+#3 D:\wamp\www\waimai\framework\web\actions\CInlineAction.php(49): WmController->actionShopList()
+#4 D:\wamp\www\waimai\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wamp\www\waimai\framework\web\CController.php(286): WmController->runAction()
+#6 D:\wamp\www\waimai\framework\web\CController.php(265): WmController->runActionWithFilters()
+#7 D:\wamp\www\waimai\framework\web\CWebApplication.php(282): WmController->run()
+#8 D:\wamp\www\waimai\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\wamp\www\waimai\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wamp\www\waimai\index.php(13): CWebApplication->run()
+REQUEST_URI=/waimai/index.php?r=wm/shoplist
+in D:\wamp\www\waimai\themes\shpd2012\views\wm\shoplist.php (7)
+in D:\wamp\www\waimai\protected\controllers\WmController.php (13)
+in D:\wamp\www\waimai\index.php (13)

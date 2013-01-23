@@ -16,14 +16,72 @@
 }
 .yjyy{
 	border: 1px solid #DDD;
-	-moz-box-shadow:0px 2px 10px #333333; 
-	-webkit-box-shadow:0px 2px 10px #333333; 
-	box-shadow:0px 2px 10px #333333;
+	-moz-box-shadow:0px 2px 5px #333333; 
+	-webkit-box-shadow:0px 2px 5px #333333; 
+	box-shadow:0px 2px 5px #333333;
 	-moz-border-radius:5px; 
 	-webkit-border-radius:5px; 
 	border-radius:5px;
 }
-.thumbnails > li {
+.thumbnails [class*="span"] {
 margin-left: 0px;
-margin-right: 20px;
+margin-right: 11px;
+
 }
+
+
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 980px;
+}
+
+.span12 {
+  width: 980px;
+}
+
+.span11 {
+  width: 900px;
+}
+
+.span10 {
+  width: 820px;
+}
+
+.span9 {
+  width: 740px;
+}
+
+.span8 {
+  width: 660px;
+}
+
+.span7 {
+  width: 580px;
+}
+
+.span6 {
+  width: 500px;
+}
+
+.span5 {
+  width: 420px;
+}
+
+.span4 {
+  width: 340px;
+}
+
+.span3 {
+  width: 260px;
+}
+
+.span2 {
+  width: 180px;
+}
+
+.span1 {
+  width: 100px;
+}
+.thumbnails=.items

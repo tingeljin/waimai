@@ -10,7 +10,14 @@ class WmController extends Controller
 	}
 	public function actionShopList()
 	{
-		$this->render('shoplist');
+		$dataProvider=new CActiveDataProvider('TakeawayShops',array(
+				'pagination'=>array(
+						'pageSize'=>48,
+					),
+			));
+		$this->render('shoplist',array(
+			'dataProvider'=>$dataProvider,
+		));
 	}
 	public function actionShop()
 	{
