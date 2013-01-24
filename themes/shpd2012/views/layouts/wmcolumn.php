@@ -1,7 +1,7 @@
 <?php /* @var $this Controller */ ?>
 <?php $this->beginContent('//layouts/wmmain'); ?>
 <div class="bodyer_css">
-	<div class="container">
+	<div class="container F8F2E5">
 		<?php echo $content; ?>
 	</div>
 	

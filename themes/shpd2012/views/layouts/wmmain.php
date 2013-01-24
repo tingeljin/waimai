@@ -1,5 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Bootstrap 101 Template</title>
@@ -20,22 +22,12 @@
 			<div class="row">
 				<div class="span3"><?php echo CHtml::image(Yii::app()->theme->baseUrl.'/img/logo2.png')?></div>
 				<div class="span6">
-					<div class="tabbable"> <!-- Only required for left/right tabs -->
-					  <ul class="nav nav-tabs">
-					    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-					    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-					  </ul>
-					  <div class="tab-content">
-					    <div class="tab-pane active input-append" id="tab1">
-					  <input class="span4" id="appendedInputButton" type="text" placeholder="找店铺">
-					  <button class="btn btn-info" type="button">Search</button>
-					    </div>
-					    <div class="tab-pane input-append" id="tab2">
+					    <div class="input-append">
 					  <input class="span4" id="appendedInputButton" type="text" placeholder="找美食">
-					  <button class="btn btn-info" type="button">Search</button>
+					  <button class="btn btn-info" type="button"><i class="icon-search icon-white"></i>搜索</button>
 					    </div>
-					  </div>
-					</div>
+
+
 				</div>
 			</div>
 		</div>
