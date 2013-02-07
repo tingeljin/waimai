@@ -20,14 +20,16 @@
 		<div class="header_toper"></div>
 		<div class="container header_logor">
 			<div class="row">
-				<div class="span3"><?php echo CHtml::image(Yii::app()->theme->baseUrl.'/img/logo2.png')?></div>
+				<div class="span4"><div class="row-margin-topbottom-5"><?php echo CHtml::image(Yii::app()->theme->baseUrl.'/img/logo4.png')?></div></div>
 				<div class="span6">
-					    <div class="input-append">
-					  <input class="span4" id="appendedInputButton" type="text" placeholder="找美食">
-					  <button class="btn btn-info" type="button"><i class="icon-search icon-white"></i>搜索</button>
+					    <div class="input-append header-search-padding-top">
+						  <input class="span4" id="appendedInputButton" type="text" placeholder="请输入外卖菜单或者餐厅名">
+						  <button class="btn btn-info" type="button"><i class="icon-search icon-white"></i>搜索</button>
 					    </div>
-
-
+				</div>
+				<div class="span2">
+					<div class="header-search-padding-top"><a class="btn btn-success"><i class="icon-eye-open icon-white"></i>发现外卖餐厅</a></div>
+					
 				</div>
 			</div>
 		</div>

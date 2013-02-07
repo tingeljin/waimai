@@ -4,15 +4,15 @@
 }
 
 .header_toper{/*页头，网页最顶的横幅*/
-	height: 30px;
+	height: 25px;
 	background-color: #8e0000;/*调试用颜色*/
 	}
 .header_logor{/*页头，网页Logo行*/
 	max-height:90px;
 	/*background-color: #a02;调试用颜色*/
 }
-
-.span2_4 {
+.header-search-padding-top{padding-top:30px}
+.span2_5 {
   width: 170px;
 }
 .span9_5 {
@@ -42,21 +42,22 @@
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
 }
-.dise{/*底色*/
+.color-6EC5B8{/*底色*/
 	background-color: #6EC5B8;/*调试用颜色*/
 }
 
-.F8F2E5{/*底色*/
+.color-F8F2E5{/*底色*/
 	background-color: #F8F2E5;/*调试用颜色*/
 }
-.shangxiabianjie{/*上下边界*/
-	margin:10px 0;
+.row-margin-topbottom-5{/*上下边界*/
+	margin-top:5px;
+	margin-bottom:5px;
 }
-.search_css{/*搜查的位置和边框高度*/
-	margin:10px 0;
-	height:50px
+.row-margin-left-0 {
+  margin-left: 0px;
 }
-.marginleft10 {
-  margin-left: 5px;
+.row-automargin{
+	margin-left:auto;
+	margin-right:auto;
 }
 
